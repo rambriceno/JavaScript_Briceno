@@ -6,30 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/style.css">
-    <title>Document</title>
+    <title>iPhonesia</title>
 </head>
 <body>
     
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">LOGO</a>
+              <a class="navbar-brand" href="./index.html">iPhonesia</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="./index.html">Inicio</a>
+                  <li class="nav-item modelo" value="14">
+                    <a class="nav-link" href="./sections/iPhone13Pro.html" value="13 Pro">iPhone 13Pro</a>
+                  </li>
+                  <li class="nav-item modelo" value="13">
+                    <a class="nav-link" href="./sections/iPhone13.html" value="13">iPhone 13</a>
+                  </li>
+                  <li class="nav-item modelo" value="12">
+                    <a class="nav-link" href="./sections/iPhone12.html" value="12">iPhone 12</a>
+                  </li>
+                  <li class="nav-item modelo" value="11">
+                    <a class="nav-link" href="./sections/iPhone11.html" value="11">iPhone 11</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Precios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Conciertos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Contacto</a>
+                    <a class="nav-link" href="./sections/bolsa.html">
+                        <img src="./img/icons8-bolsa-de-compras-24.png" alt="">
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -37,16 +42,25 @@
           </nav>
     </header>
     <main>
+
+      <div class="banner">
+        <h2>iPhone 11 / 12 / 13 / 13 Pro</h1>
+        <h1>Prodigioso Pro.</h2>
+        <h3>Desde $589 y 3 cuotas sin interés</h3>
+      </div>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/coldplay.jpg" class="d-block w-100 tamanoImg" alt="...">
+                <img src="./img/iphone-13-pro-family.jfif" class="d-block w-100 tamanoImg" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./img/harry_styles.jpg" class="d-block w-100 tamanoImg" alt="...">
+                <img src="./img/iphone-13-family.jfif" class="d-block w-100 tamanoImg" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./img/Daddy-Yankee.jpg" class="d-block w-100 tamanoImg" alt="...">
+                <img src="./img/iphone-12-select.jfif" class="d-block w-100 tamanoImg" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/iphone11-select-2019-family.jfif" class="d-block w-100 tamanoImg" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -60,6 +74,6 @@
           </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

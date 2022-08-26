@@ -1,3 +1,28 @@
-.tamanoImg{
+/* .tamanoImg{
     height: 800px;
+} */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.resumen{
+    margin-left: 10px;
+
+}
+
+.textTituloResumen{
+    font-size: 16px;
+}
+
+.textSubTituloResumen{
+    font-size: 14px;
+}
+
+.textParrafoResumen{
+    font-size: 12px;
+    margin-bottom: 5px;
 }
